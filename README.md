@@ -1,12 +1,11 @@
 # Wizybot
 
-¡Bienvenido/a al proyecto Wizybot! Este proyecto fue desarrollado como parte de una prueba técnica para la empresa Wizybot. Se trata de un ChatBot de inteligencia artificial que consume la API de OpenAI.
-
 Welcome to the Wizybot project! This project was developed as part of a technical test for the company Wizybot. It is an AI-powered ChatBot that interacts with the OpenAI API.
+You can see a video demonstration: [Video Demo](https://www.loom.com/share/48e81785bdc8444ebee41f2a3880dd58?sid=8389867b-1f89-4765-86f6-eca1517c17f6).
 
 ---
 
-## Tecnologías utilizadas / Technologies used
+## Technologies used
 
 - **React**: ^18.x
 - **Node.js**: 20.18.1
@@ -17,66 +16,60 @@ Welcome to the Wizybot project! This project was developed as part of a technica
 
 ---
 
-## Requisitos previos / Prerequisites
+## Prerequisites
 
-Antes de comenzar, asegúrate de tener instalados los siguientes programas en tu sistema:  
 Before starting, ensure you have the following programs installed on your system:
 
-1. **Node.js** (versión 20.18.1 o superior / version 20.18.1 or higher).
-2. **NPM** (versión 10.8.2 o superior / version 10.8.2 or higher).
-3. **Git** para clonar el repositorio / to clone the repository.
+1. **Node.js** (version 20.18.1 or higher).
+2. **NPM** ( version 10.8.2 or higher).
+3. **Git** to clone the repository.
 
 ---
 
-## Pasos para ejecutar el proyecto / Steps to run the project
+## Steps to run the project
 
-### 1. Clonar el repositorio / Clone the repository
+### 1. Clone the repository
 
 ```bash
-git clone https://github.com/tu-usuario/wizybot.git
+git clone https://github.com/andyBlack13/wizybot-front.git
 ```
 
-### 2. Navegar al directorio del proyecto / Navigate to the project directory
+### 2. Navigate to the project directory
 
 ```bash
 cd wizybot 
 ```
 
-### 3.  Instalar las dependencias / Install dependencies
+### 3. Install dependencies
 
 ```bash
 npm install
 ```
 
-### 4. Configurar las variables de entorno / Configure environment variables
+### 4. Configure environment variables
 
-Crea un archivo .env en el directorio raíz del proyecto con el siguiente contenido:
 Create a .env file in the project root directory with the following content:
 
 ```bash
 REACT_APP_OPENAI_API_KEY=tu_api_key_de_openai
 ```
-Reemplaza tu_api_key_de_openai con tu clave de API de OpenAI.
-Replace your openai_api_key with your OpenAI API key.
+- Replace your openai_api_key with your OpenAI API key.
 
-### 4. Ejecutar el proyecto / Run the project
+### 4. Run the project
 
 ```bash
 npm start
 ```
-El proyecto estará disponible en http://localhost:3000.
 The project will be available at http://localhost:3000.
 
 
-## Enlaces relevantes / Relevant links
+## Relevant links
 
-Repositorio del proyecto: [GitHub](http://localhost:3000) 
-Demo del proyecto: [Video Demo](http://localhost:3000) 
+Project repository: [GitHub](https://github.com/andyBlack13/wizybot-front) 
+Video Demo: [Video Demo](https://www.loom.com/share/48e81785bdc8444ebee41f2a3880dd58?sid=8389867b-1f89-4765-86f6-eca1517c17f6) 
 
-## Learn More / Learn More
-Para aprender React, consulte la [documentación de React](https://reactjs.org/).
+##  Learn More
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-## Créditos / Credits
-Desarrollado por Andrea Camargo Ruiz, Desarrolladora Full Stack Junior.
+## Credits
 Developed by Andrea Camargo Ruiz, Junior Full Stack Developer.
